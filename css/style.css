@@ -1,0 +1,80 @@
+/* -----------------------------
+   ESTILOS GENERALES DEL SITIO
+----------------------------- */
+body {
+  font-family: Arial, sans-serif; /* Define el tipo de letra para todo el sitio */
+  background-color: #f4f4f4;      /* Color de fondo del sitio (gris claro) */
+  margin: 0;                      /* Elimina el margen exterior del navegador */
+  padding: 0;                     /* Elimina el relleno interior por defecto */
+  color: #333;                    /* Color del texto general (gris oscuro) */
+}
+
+/* -----------------------------
+   ESTILO DEL ENCABEZADO <header>
+----------------------------- */
+header {
+  background-color: #003366;     /* Fondo azul oscuro para el encabezado */
+  color: white;                  /* Texto blanco sobre fondo azul */
+  text-align: center;            /* Centra el contenido (nombre y subtítulo) */
+  padding: 1.5rem;               /* Espaciado interno arriba y abajo */
+}
+
+/* -----------------------------
+   SECCIONES GENERALES <section>
+----------------------------- */
+section {
+  max-width: 900px;              /* Limita el ancho para que no se vea estirado en pantallas grandes */
+  margin: 2rem auto;             /* Centra la sección en la página y agrega espacio vertical */
+  padding: 1rem;                 /* Espaciado interno dentro de cada sección */
+  background: white;             /* Fondo blanco para mayor contraste con el fondo gris del <body> */
+  border-radius: 8px;            /* Bordes redondeados suaves */
+  box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Sombra sutil alrededor de la caja para destacar */
+}
+
+/* -----------------------------
+   TÍTULOS DE SECCIONES <h2>
+----------------------------- */
+h2 {
+  color: #003366;                /* Aplica el mismo azul del header a los subtítulos */
+}
+
+/* -----------------------------
+   ENLACES (links) <a>
+----------------------------- */
+a {
+  color: #0066cc;                /* Azul claro para enlaces */
+  text-decoration: none;         /* Elimina el subrayado por defecto */
+}
+
+a:hover {
+  text-decoration: underline;    /* Cuando pasas el mouse por encima, se subraya */
+}
+
+/* -----------------------------
+   REDES SOCIALES (íconos + texto)
+----------------------------- */
+.redes-sociales {
+  display: flex;                 /* Usa flexbox para organizar los ítems horizontal o verticalmente */
+  flex-direction: column;        /* Los ítems se organizan en columna */
+  gap: 0.5rem;                   /* Espacio entre ítems */
+  margin-top: 1rem;
+}
+
+.redes-sociales a {
+  display: inline-flex;          /* Permite que los íconos y el texto estén en línea */
+  align-items: center;           /* Centra verticalmente el ícono y el texto */
+  font-size: 1rem;
+  gap: 0.5rem;                   /* Espacio entre ícono y texto */
+}
+
+
+/* -----------------------------
+   PIE DE PÁGINA <footer>
+----------------------------- */
+footer {
+  background-color: #003366;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 3rem;
+}
