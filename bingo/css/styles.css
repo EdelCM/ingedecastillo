@@ -1,0 +1,72 @@
+#bingoCard {
+    width: 350px;
+    margin-top: 20px;
+    background-color: white;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+#bingoCard th,
+#bingoCard td {
+    border: 1px solid #dee2e6;
+    width: 20%;
+    height: 55px;
+    padding: 0;
+    text-align: center;
+}
+
+#bingoCard input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    background: none;
+    text-align: center;
+}
+
+.random-card input {
+    background-color: #f8f9fa;
+    color: #6c757d;
+    pointer-events: none;
+}
+
+.custom-card input {
+    background-color: white;
+}
+
+input.invalid {
+    border: 2px solid red;
+    background-color: #ffe6e6 !important;
+}
+
+/* ================================
+   Botón: Regresar al menú principal
+   ================================ */
+.btn-back {
+  display: inline-block;
+  background-color: #0055aa;
+  color: white;
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 10px;
+  text-decoration: none;
+  box-shadow: 0 4px 8px rgba(233, 230, 230, 0.1);
+  transition: all 0.3s ease-in-out;
+  font-weight: bold;
+}
+
+.btn-back:hover {
+  background-color: #97b7d8;
+  transform: scale(1.05);
+  text-decoration: none;
+}
+
+/* Boton foltante y a la izquierda
+.btn-back {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 1000;
+}*/
+
